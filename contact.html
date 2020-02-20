@@ -1,51 +1,118 @@
 <!DOCTYPE html>
-<html>
   <html lang="en">
+
     <head>
      <meta charset="UTF-8">
-     <meta name="description" content="Specialized algo services">
-     <meta name="keywords" content="HTML5,CSS3,SASS,JS,XML,LAMP,LEMP,PHP,ANGULAR,NODEJS">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Greeting from SAS</title>
-     <h1>SAS Specialized Algo Services</h1>
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="description" content="Specialized Algo Services">
+     <meta name="keywords" content="HTML5,CSS3,SASS,JS,XML,LAMP,LEMP,PHP,ANGULAR,NODEJS">
+     
+     <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+     <script type="text/javascript">
+        var onloadCallback = function() {
+          grecaptcha.render('html_element', {
+            'sitekey' : '6LfYv6cUAAAAAGVXO97TUE3n6WntmPN63jUyF1XY'
+          });
+        };
+      </script>
      <link rel="author" href="humans.txt" />
      <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
      <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
      <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
      <link rel="manifest" href="./site.webmanifest">
+    
     </head>
     <body>
-        <nav>
-            <ul>
+        <header>
+            <span class="logo">SAS: The Nexus of AI Algo Development</span>
+            <a id="toggleMenu">Menu</a>
+            <nav>
+              <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-  
-         <form>
-                action="https://formspree.io/mzbrlnzw" method="POST
+               </ul>
+             </nav>
+        </header>
+     <main>
+
+            <h1>Looking Forward to talking with you</h1>
+            <form class="contact-form" action="https://formspree.io/eeje152@gmail.com" method="POST">
+
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="text" name="_replyto">  
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <input type="hidden" name="_subject" value="New submission!">
+                </div>
             
-            <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" name="name">
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input id="email" type="text" name="_replyto">  
-              </div>
-              <div>
-                <label for="message">Message</label>
-                <textarea id="message" name="message"></textarea>
-              </div>
-              <div>
-                <input type="hidden" name="_subject" value="New submission!">
-              </div>
-              <div>
-                <input type="submit" value="Send">
-              </div>
-              <input type="text" name="_gotcha" style="display:none">
-              <input type="hidden" name="_next" value="//eej123.github.io/thanks.html">
+                <div id="html_element"></div>
+                <br>
+                <input type="submit" value="Submit">
+
+                <input type="hidden" name="_next" value="//microtrain.github.io/thanks.html">
             </form>
-   </body>
-</html>
+        </main>
+        <script>
+  
+            var toggleMenu = document.getElementById('toggleMenu');
+            var nav = document.querySelector('nav');
+            toggleMenu.addEventListener(
+              'click',
+              function(){
+                if(nav.style.display=='block'){
+                  nav.style.display='none';
+                }else{
+                  nav.style.display='block';
+                }
+              }
+            );
+          </script>
+          </body>
+        </html>
+
+
+
+
+
+<!--    <div>
+        <input type="submit" value="Send">
+    </div> -->
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="hidden" name="_next" value="//swasgrafx.github.io/thanks.html">
+</form>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+async defer>
+</script>
+</main>
+<!--<script>
+    var toggleMenu = document.getElementById('toggleMenu');
+    var nav = document.querySelector('nav');
+    toggleMenu.addEventListener(
+      'click',
+      function(){
+        if(nav.style.display=='block'){
+          nav.style.display='none';
+        }else{
+          nav.style.display='block';
+        }
+      }
+    ); 
+</script>
+  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+  <script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
+      });
+  });
+  </script> -->
