@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
 .avatar {
   border-radius: 50%;
   float: right;
@@ -60,20 +59,17 @@ main {
   display: none; }
 
 @media only screen and (max-width: 960px) {
-
   #toggleMenu {
     display: block;
     float: right;
     line-height: 50px; }
 
   nav {
-    display: none; 
-    } 
-   }
+    display: none; } }
 
-@media only screen and (max-width: 960px) {
-
-  header {
+  @media only screen and (max-width: 960px) {
+  
+    header {
     position: relative; }
 
   #toggleMenu {
@@ -82,8 +78,7 @@ main {
     line-height: 50px; }
 
   header {
-    position: relative; 
-  }
+    position: relative; }
 
   nav {
     position: absolute;
@@ -97,80 +92,73 @@ main {
   nav ul li a:link,
   nav ul li a:visited {
     display: block;
-    border-bottom: 1px solid #777; 
-  }
-}
+    border-bottom: 1px solid #777; } }
 
-  *[class^=column-] {
-      background:#fff;
-      border:1px solid #fff;
-      padding:2em 0;
-      color:#000;
-      text-align:Center;
-    }
-    /*  Small viewport 1 column */
-    .grid-2 {
-         display:grid;
-          /*  smaller viewports will be 1 column wide */
-         grid-template-columns:repeat(2,1fr)
-      }
-      .grid-2 .column-1 {
-        grid-column:1;
-        grid-row:1;
-      }
-        
-      .grid-2 .column-2 {
-        /* smaller viewports let second column be its own row */
-          grid-column:span 2;
-          grid-row:2;
-        }
+ *[class^=column-] {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 2em 0;
+    color: #000;
+    text-align: Center; }
 
-      /* larger viewports will be 1 row/2 columns wide */
-      @media only screen and (min-width:768px)  {  
-      .grid-2 {
-          display:grid;
-          /* larger viewports will be 2 columns wide */
-          grid-template-columns:repeat(2,1fr);
-        }
-       .grid-2 .column-1 {
-          grid-column:1;
-          grid-row:1;
-      }
-       
-        .grid-2 .column-2 {
-          grid-column:2;
-          grid-row:1;
-        }
-      }
+/*  Small viewport 1 column */
+.grid-2 {
+  display: grid;
+  /*  smaller viewports will be 1 column wide */
+  grid-template-columns: repeat(2, 1fr); }
 
-      h1 {
-        color:#206bb2;text-align:center;
-      }
-      h2 {
-        color:#206bb1;text-align:center;
-      }
-      h3 {
-        color:#000;
-      }
-      h4 {
-        color:#20b6af;
-      }
-      /*  img not yet added 
-      .resume img {
-        position:absolute;
-        left:0;
-        top:0;
-        width:80%;
-        height:80%;
-        opacity:.2;
-        z-index:40;
-      }                        */
-      
-      .links {
-        text-align:center;
-      }
+.grid-2 .column-1 {
+  grid-column: 1;
+  grid-row: 1; }
 
-   
+.grid-2 .column-2 {
+  /* smaller viewports let second column be its own row */
+  grid-column: span 2;
+  grid-row: 2; }
+
+/* larger viewports will be 1 row/2 columns wide */
+@media only screen and (min-width: 768px) {
+  .grid-2 {
+    display: grid;
+    /* larger viewports will be 2 columns wide */
+    grid-template-columns: repeat(2, 1fr); }
+
+  .grid-2 .column-1 {
+    grid-column: 1;
+    grid-row: 1; }
+
+  .grid-2 .column-2 {
+    grid-column: 2;
+    grid-row: 1; } }
+
+  h1 {
+    color: #206bb2;
+    text-align: center; }
+
+  h2 {
+    color: #206bb1;
+    text-align: center; }
+
+  h3 {
+    color: #000; }
+
+  h4 {
+    color: #20b6af; }
+
+/*  img not yet added 
+.resume img {
+  position:absolute;
+  left:0;
+  top:0;
+  width:80%;
+  height:80%;
+  opacity:.2;
+  z-index:40;
+}                        */
+.links {
+  text-align: center; }
+
 /*  sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
