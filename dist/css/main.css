@@ -15,7 +15,7 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 header {
-  height: 50px;
+  height: 70px;
   background: #1f2ca1f0;
   color: #fff;
   padding: 0 .5rem 0 1rem; }
@@ -25,6 +25,7 @@ header .logo {
   font-weight: bold; }
 
 nav {
+  box-shadow: 0 0 4px 2px black;
   float: right; }
 
 nav ul {
@@ -71,7 +72,7 @@ main {
     position: relative; }
 
   #toggleMenu {
-    display: block;
+    display: inline;
     float: right;
     line-height: 50px; }
 
@@ -154,8 +155,36 @@ h4 {
 .links {
   text-align: center; }
 
-/*  sourceMappingURL=main.css.map */
-/*# sourceMappingURL=main.css.map */
+.contact-form {
+  max-width: 300px;
+  float: center;
+  margin: 0 auto;
+  background: #ccc;
+  border-radius: 6px;
+  padding: 2rem 1.5rem; }
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  font-size: 2rem;
+  padding: .5rem .25rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  box-sizing: border-box; }
+
+.contact-form input[type="submit"] {
+  font-size: 2rem;
+  padding: .5rem .25rem; }
+
+@media only screen and (max-width: 420px) {
+  .contact-form input[type="submit"] {
+    display: block;
+    width: 100%; } }
 /*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */

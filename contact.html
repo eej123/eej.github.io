@@ -39,14 +39,13 @@
 
             <h1>Looking Forward to talking with you</h1>
             <form class="contact-form" action="https://formspree.io/eeje152@gmail.com" method="POST">
-
                 <div>
                     <label for="name">Name</label>
                     <input id="name" type="text" name="name">
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input id="email" type="text" name="_replyto">  
+                    <input id="email" type="email" name="_replyto">  
                 </div>
                 <div>
                     <label for="message">Message</label>
@@ -62,6 +61,12 @@
 
                 <input type="hidden" name="_next" value="//microtrain.github.io/thanks.html">
             </form>
+            <input type="text" name="_gotcha" style="display:none">
+            <input type="hidden" name="_next" value="//eej.github.io/thanks.html">
+        </form>
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+        </script>
         </main>
         <script>
   
@@ -80,39 +85,3 @@
           </script>
           </body>
         </html>
-
-
-
-
-
-<!--    <div>
-        <input type="submit" value="Send">
-    </div> -->
-    <input type="text" name="_gotcha" style="display:none">
-    <input type="hidden" name="_next" value="//swasgrafx.github.io/thanks.html">
-</form>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-async defer>
-</script>
-</main>
-<!--<script>
-    var toggleMenu = document.getElementById('toggleMenu');
-    var nav = document.querySelector('nav');
-    toggleMenu.addEventListener(
-      'click',
-      function(){
-        if(nav.style.display=='block'){
-          nav.style.display='none';
-        }else{
-          nav.style.display='block';
-        }
-      }
-    ); 
-</script>
-  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
-  <script>
-  grecaptcha.ready(function() {
-      grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
-      });
-  });
-  </script> -->
