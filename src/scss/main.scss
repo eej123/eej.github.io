@@ -91,9 +91,9 @@ main {
   /* Use a margin to center the page */
   margin: 0 auto;
   /* Set the width of the content */
-  width: 960px;
+  width: 100%;
   /* For smaller screens to not exceed the max screen width */
-  max-width: 90%; }
+  max-width: 100%; }
 
 #toggleMenu {
   display: none; }
@@ -231,6 +231,7 @@ h4 {
   .contact-form input[type="submit"] {
     display: block;
     width: 100%; } }
+/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
