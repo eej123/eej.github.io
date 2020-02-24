@@ -64,6 +64,7 @@ nav {
   border-top-style: solid;
   margin-top: 3px;
   box-shadow: 0 4px 2px black;
+  z-index: 2;
   float: right; }
 
 nav ul {
@@ -167,15 +168,15 @@ main {
     grid-column: 2;
     grid-row: 1; } }
 h1 {
-  color: #143441;
+  color: #0c2129;
   text-align: center; }
 
 h2 {
-  color: #43464b;
+  color: #26282b;
   text-align: center; }
 
 h3 {
-  color: #43464b; }
+  color: #292b2e; }
 
 h4 {
   color: #43464b; }
@@ -223,6 +224,8 @@ h4 {
   .contact-form input[type="submit"] {
     display: block;
     width: 100%; } }
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
