@@ -23,6 +23,7 @@ body {
   overflow: hidden; }
 
 .backvid h1 {
+  position: absolute;
   text-align: center;
   font-size: 6rem;
   padding: 20px;
@@ -60,6 +61,7 @@ header .logo {
   font-weight: bold; }
 
 nav {
+  position: relative;
   border-top-width: 0px;
   border-top-style: solid;
   margin-top: 3px;
@@ -231,6 +233,7 @@ h4 {
   .contact-form input[type="submit"] {
     display: block;
     width: 100%; } }
+/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
