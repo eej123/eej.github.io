@@ -135,7 +135,7 @@ main {
   background: #fff;
   border: 1px solid #fff;
   padding: 2em 0;
-  color: #e1e8ef;
+  color: #101316;
   text-align: Center; }
 
 /*  Small viewport 1 column */
@@ -185,6 +185,9 @@ h3 {
 h4 {
   color: #43464b; }
 
+.homecenter {
+  text-align: center; }
+
 /*  img not yet added 
 .resume img {
   position:absolute;
@@ -228,6 +231,8 @@ h4 {
   .contact-form input[type="submit"] {
     display: block;
     width: 100%; } }
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
 /*# sourceMappingURL=main.css.map */
